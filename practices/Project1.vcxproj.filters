@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="NewFilter1">
+      <UniqueIdentifier>{f74d3a5e-8851-4f1c-8aa6-c3045e54767c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2_2_MessageBox">
+      <UniqueIdentifier>{b5c497cf-7ae8-4879-bc8f-8465cc3c90c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2_1_num_to_string">
+      <UniqueIdentifier>{749af9b7-9eca-463c-aa2b-a3564ab0908f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\1_calculate_show_factorial">
+      <UniqueIdentifier>{ff89e6f3-0e03-42ba-a22f-12242bf0ad94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\4_1_float_factorial">
+      <UniqueIdentifier>{17555b10-1595-47e5-9010-b58a8458148d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2_3_structs">
+      <UniqueIdentifier>{25578cc8-ab2e-4845-a4b8-9042231979da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\5_1_taylor_series">
+      <UniqueIdentifier>{c48fff22-9482-4154-aa04-b3f7ec4c82e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\6_max_array">
+      <UniqueIdentifier>{bfe231fc-976b-416a-897d-1c0e4a7855c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\7_str_len">
+      <UniqueIdentifier>{5787b0fc-2ffb-4f9b-a3e5-5fb06895ef72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <YASM Include="testing.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="callMessageBox.asm">
+      <Filter>Source Files\2_2_MessageBox</Filter>
+    </YASM>
+    <YASM Include="num_to_string.asm">
+      <Filter>Source Files\2_1_num_to_string</Filter>
+    </YASM>
+    <YASM Include="test_empty.asm">
+      <Filter>Source Files\1_calculate_show_factorial</Filter>
+    </YASM>
+    <YASM Include="factorial.asm">
+      <Filter>Source Files\1_calculate_show_factorial</Filter>
+    </YASM>
+    <YASM Include="method_get5_realization.asm">
+      <Filter>Source Files\2_3_structs</Filter>
+    </YASM>
+    <YASM Include="method_returnHaha_realisation_faild.asm">
+      <Filter>Source Files\2_3_structs</Filter>
+    </YASM>
+    <YASM Include="func_returnHaha_realization.asm">
+      <Filter>Source Files\2_3_structs</Filter>
+    </YASM>
+    <YASM Include="float_factorial.asm">
+      <Filter>Source Files\4_1_float_factorial</Filter>
+    </YASM>
+    <YASM Include="print_float.asm">
+      <Filter>Source Files\4_1_float_factorial</Filter>
+    </YASM>
+    <YASM Include="float_factorial_print.asm">
+      <Filter>Source Files\4_1_float_factorial</Filter>
+    </YASM>
+    <YASM Include="arctan.asm">
+      <Filter>Source Files\5_1_taylor_series</Filter>
+    </YASM>
+    <YASM Include="failed_slow_taylor.asm">
+      <Filter>Source Files\5_1_taylor_series</Filter>
+    </YASM>
+    <YASM Include="max_array.asm">
+      <Filter>Source Files\6_max_array</Filter>
+    </YASM>
+    <YASM Include="str_len.asm">
+      <Filter>Source Files\7_str_len</Filter>
+    </YASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="call_num_to_string.c">
+      <Filter>Source Files\2_1_num_to_string</Filter>
+    </ClCompile>
+    <ClCompile Include="num_to_string_call_cpp.cpp">
+      <Filter>Source Files\2_1_num_to_string</Filter>
+    </ClCompile>
+    <ClCompile Include="see_documentation.c">
+      <Filter>Source Files\2_2_MessageBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.c">
+      <Filter>Source Files\1_calculate_show_factorial</Filter>
+    </ClCompile>
+    <ClCompile Include="my_struct.cpp">
+      <Filter>Source Files\2_3_structs</Filter>
+    </ClCompile>
+    <ClCompile Include="call_float_factorial.cpp">
+      <Filter>Source Files\4_1_float_factorial</Filter>
+    </ClCompile>
+    <ClCompile Include="taylor_call.cpp">
+      <Filter>Source Files\5_1_taylor_series</Filter>
+    </ClCompile>
+    <ClCompile Include="testing_max_array.cpp">
+      <Filter>Source Files\6_max_array</Filter>
+    </ClCompile>
+    <ClCompile Include="str_len_test.cpp">
+      <Filter>Source Files\7_str_len</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
